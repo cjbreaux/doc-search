@@ -1,6 +1,11 @@
 import $ from 'jquery';
 import './scss/styles.scss';
+// import { DoctorSearch } from './js/apiLogic.js';
 
 
-
-console.log('test');
+$(document).ready(function(){
+  $('form').submit(function(event){
+    event.preventDefault();
+    console.log("test");
+  })
+});
