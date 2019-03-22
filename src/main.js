@@ -14,8 +14,7 @@ $(document).ready(function(){
     event.preventDefault();
     let doctorInput = $('#doctor').val();
     let ailmentInput = $('#ailments').val();
-    console.log(doctorInput);
-    console.log(ailmentInput);
+
 
 
     const doc = new DoctorSearch();
@@ -23,10 +22,10 @@ $(document).ready(function(){
 
     promise.then(function(response) {
       const results = JSON.parse(response);
-      // console.log(results);
       const resultsArr = results;
+      console.log(resultsArr.data[0].practices[0].name);
       // const output = sorter(results);
-      console.log(resultsArr.data);
+      // console.log(output);
 
       }, function(error) {
         console.log("Error from API")
