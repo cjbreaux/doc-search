@@ -1,4 +1,6 @@
 import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/styles.scss';
 import {displayInfo} from './js/functions.js';
 import { Search } from './js/apiLogic.js';
