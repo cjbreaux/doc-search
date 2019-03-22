@@ -19,13 +19,13 @@ $(document).ready(function(){
     const promise = doc.findDoctor(doctorInput,ailmentInput);
 
     promise.then(function(response) {
-    let results = JSON.parse(response);
-    if ((doctorInput) || (ailmentInput)) {
-      displayInfo(results);
-    }
+      let results = JSON.parse(response);
+      if ((doctorInput) || (ailmentInput)) {
+        displayInfo(results);
+      }
 
     }, function(error) {
-      $('.results').html(`There seems to be an error processing your request.`);
+      $('.results').html(`There seems to be an error processing your request: ${error.message}`);
     });
-  })
+  });
 });
