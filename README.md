@@ -37,7 +37,7 @@ If query response doesn't contain any doctors, return a notification | Xenomorph
 
 
 ### Setup Instructions
-* Clone file from
+* Clone file from https://github.com/cjbreaux/doc-search.git
 * Navigate to the cloned folder in the terminal.
 * While in the project folder, run the following in the terminal:
  ```html
@@ -52,9 +52,8 @@ $ npm start
 
 ### Stretch Goals
 
-* Style page using bootstrap and custom css.
-* Error checking on input fields.
-* Refactor UI logic to utilize looping (especially in the UI);
+* Custom Styling
+* Refactor code to parse data more effectively
 
 ### License
 
