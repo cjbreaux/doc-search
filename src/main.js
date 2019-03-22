@@ -18,9 +18,10 @@ $(document).ready(function(){
 
     promise.then(function(response) {
       let results = JSON.parse(response);
-      // if(doctorInput != ''){
-      // }
-      displayInfo(results);
+      if ((doctorInput) || (ailmentInput)) {
+        displayInfo(results);
+      }
+
 
 
       }, function(error) {
