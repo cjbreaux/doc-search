@@ -17,7 +17,7 @@ This project will utilize the BetterDoctor API to create a web application that 
 Specification | Input | Output
 ------------- | ----- | ------
 Enter medical issue and receive a list of doctors in the Portland area | High Blood Pressure | Doctor Dan, <br> Medical Maria, <br> Healthy Harriet
-Enter a name and recieve a list of doctors in the Portland area | Harriet | Healthy Harriet, <br> Harriet Smith
+Enter a name and receive a list of doctors in the Portland area | Harriet | Healthy Harriet, <br> Harriet Smith
 If response includes any doctors, the following information should be presented: first name, last name, address, phone number, website, whether the doctor is accepting new patients | Dan | Doctor Dan <br> 1234 Hospital Rd, Portland OR 97214 <br> 503 - 111 - 1111 <br> www.drdan.com <br> Accepting new patients
 Error message for invalid API call | Anxiety | Error: There was an error processing your request
 If query response doesn't contain any doctors, return a notification | Xenomorphoplasia | Sorry, there aren't any doctors near you that meet the search criteria.
