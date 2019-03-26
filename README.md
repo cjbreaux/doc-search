@@ -38,7 +38,14 @@ If query response doesn't contain any doctors, return a notification | Xenomorph
 
 ### Setup Instructions
 * Clone file from https://github.com/cjbreaux/doc-search.git
+* Grab an API key from https://developer.betterdoctor.com/
 * Navigate to the cloned folder in the terminal.
+* Create a .env file in the root project directory.
+* In your .env file, copy the following: 
+```html
+exports.apiKey = YOUR_API_KEY_GOES_HERE
+```
+* Be sure to add in your unique API key obtained from https://developer.betterdoctor.com/
 * While in the project folder, run the following in the terminal:
  ```html
 $ npm i
@@ -47,13 +54,7 @@ $ npm i
 ```html
 $ npm start
 ```
-* Grab an API key from https://developer.betterdoctor.com/
-* Create a .env file in the root project directory.
-* In your .env file, copy the following: 
-```html
-exports.apiKey = YOUR_API_KEY_GOES_HERE
-```
-* Be sure to add in your unique API key obtained from https://developer.betterdoctor.com/
+
 
 ### Stretch Goals
 
