@@ -47,8 +47,13 @@ $ npm i
 ```html
 $ npm start
 ```
-
-
+* Grab an API key from https://developer.betterdoctor.com/
+* Create a .env file in the root project directory.
+* In your .env file, copy the following: 
+```html
+exports.apiKey = YOUR_API_KEY_GOES_HERE
+```
+* Be sure to add in your unique API key obtained from https://developer.betterdoctor.com/
 
 ### Stretch Goals
 
